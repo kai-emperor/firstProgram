@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+
+
+
+
+#springboot   mybatis
+#mybatis配置
+mybatis: 
+  type-aliases-package: com.offcn.entity
+
+#数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tmall?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root  
+     
+  thymeleaf: 
+    content-type: text/html 
+    cache: false
+    mode: LEGACYHTML5    
+ 
